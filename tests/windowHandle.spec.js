@@ -18,5 +18,6 @@ test('Window handling', async () => {
     await saucePage.locator('#user-name').fill('standard_user');
     await saucePage.locator('#password').fill('secret_sauce');
     await saucePage.locator('#login-button').click();
+    console.log("Jenkins Configuration is completed")
     
 });
